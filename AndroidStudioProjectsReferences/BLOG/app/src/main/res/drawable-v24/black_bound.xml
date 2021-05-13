@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <animated-rotate>
+            <selector android:autoMirrored="true"/></animated-rotate>
+        <shape android:shape="rectangle">
+            <stroke android:width="5dp" android:color="#4E9B83"></stroke>
+            <solid android:color="#F5EDAC"></solid>-->
+            <gradient android:startColor="#EFFAFC" android:centerColor="#D0F3F8" android:endColor="#BCF8F1" android:angle="90"></gradient>
+    </shape>
+    </item>
+
+
+</selector>

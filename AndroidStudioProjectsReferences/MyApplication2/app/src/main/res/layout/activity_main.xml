@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#BEE4BF"
+    >
+
+    <TextView
+        android:id="@+id/text_display"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#96D0DA"
+        android:fontFamily="cursive"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="50sp"
+        android:textStyle="italic"
+
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click here"
+        android:fontFamily="cursive"
+        android:layout_below="@+id/text_display"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:background="#F1C4B7"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="goodbye"
+        android:id="@+id/button_main"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="launchSecondActivity"/>
+
+</RelativeLayout>

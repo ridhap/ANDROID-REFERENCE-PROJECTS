@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddFaculty"
+    android:background="@drawable/colour_two"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD FACULTY DETAILS"
+        android:textColor="#474646"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/facultyname"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Faculty Name"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/edstyle"
+        android:gravity="center" />
+
+
+    <EditText
+        android:id="@+id/usernameforfaculty"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Faculty Username"
+        android:background="@drawable/edstyle"
+        android:layout_marginStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/passwordforfaculty"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Faculty Password"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:background="@drawable/edstyle"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="select course"
+        android:onClick="onShowClicked"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/courseforfaculty"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter the Course the Faculty Teaches"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/edstyle"
+        />
+
+    <Button
+        android:id="@+id/submitfaculty"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corners"
+        android:layout_marginTop="50dp"
+        android:text="SUBmit"
+        android:onClick="onSubmitClicked"
+        />
+
+</LinearLayout>
